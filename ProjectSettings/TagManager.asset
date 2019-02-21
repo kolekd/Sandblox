@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - ball
+  - Fire
+  - destination
+  - Water
   layers:
   - Default
   - TransparentFX

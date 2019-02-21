@@ -30,6 +30,7 @@ public class BreakOnCollision : MonoBehaviour
             foreach(Component value in components)
             {
                 value.gameObject.AddComponent<Rigidbody>();
+                value.gameObject.AddComponent<PickUp>();
             }
 
 //            Renderer[] renderer = GetComponentsInChildren<Renderer>();
